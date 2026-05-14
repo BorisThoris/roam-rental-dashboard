@@ -1,4 +1,4 @@
-# Next.js Rental Search Dashboard
+# Roam Rental Dashboard
 
 A legacy Next.js + TypeScript portfolio demo for searching and previewing rental listings. The app focuses on typed data fetching, componentized search UI, and test coverage around the listing preview and search controls.
 
