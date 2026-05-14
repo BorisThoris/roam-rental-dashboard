@@ -1,5 +1,6 @@
 {
-  "name": "outdoorsy-assessment",
+  "name": "nextjs-rental-search-dashboard",
+  "description": "Legacy Next.js rental search dashboard demo with TypeScript models, a reusable data-fetching hook, search UI, listing previews, and Jest tests.",
   "version": "0.1.0",
   "private": true,
   "scripts": {

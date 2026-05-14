@@ -1,7 +1,7 @@
 {
-  "name": "outdoorsy-task",
+  "name": "nextjs-rental-search-dashboard",
   "version": "1.0.0",
-  "description": "Assessment task ",
+  "description": "Legacy Next.js rental search dashboard portfolio demo.",
   "main": "index.js",
   "scripts": {
     "test": "jest"
