@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node --openssl-legacy-provider ./node_modules/next/dist/bin/next dev",
     "build": "node --openssl-legacy-provider ./node_modules/next/dist/bin/next build",
     "start": "next start",
     "lint": "eslint --ext .ts,.tsx .",
