@@ -46,4 +46,17 @@ describe('RvPreview', () => {
     const previewImage = wrapper.find({ 'data-test-id': 'preview-image' })
     expect(previewImage.props().background).toBe(brokenUrl)
   })
+
+  it('should render the local fallback if an image url is blank', () => {
+    const rental: Rental = {
+      id: 1,
+      name: 'Test Rental',
+      description: '',
+      images: [{ id: 1, url: '' }],
+    }
+
+    const wrapper = shallow(<RvPreview rental={rental} />)
+    const previewImage = wrapper.find({ 'data-test-id': 'preview-image' })
+    expect(previewImage.props().background).toBe(brokenUrl)
+  })
 })

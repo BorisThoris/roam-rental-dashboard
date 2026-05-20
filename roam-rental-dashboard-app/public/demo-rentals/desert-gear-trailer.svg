@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Desert Gear Trailer">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#cdebf2"/>
+      <stop offset="1" stop-color="#f2cf94"/>
+    </linearGradient>
+    <linearGradient id="trailer" x1="0" x2="1">
+      <stop offset="0" stop-color="#e6eadf"/>
+      <stop offset="1" stop-color="#aeb9a6"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#sky)"/>
+  <path d="M0 269c62-20 122-21 181-4 82 24 154 22 217-8 76-36 157-37 242-3v166H0z" fill="#bf9961"/>
+  <path d="M0 325c112-30 211-31 298-5 111 34 225 31 342-8v108H0z" fill="#8d7047"/>
+  <path d="M98 262h360l70 72H162z" fill="#584530" opacity=".24"/>
+  <path d="M131 191h320c28 0 51 23 51 51v61H111v-92c0-11 9-20 20-20z" fill="url(#trailer)"/>
+  <path d="M151 213h93v53h-93zM276 213h73v53h-73z" fill="#3d5658"/>
+  <path d="M390 213h69v90h-69z" fill="#65756d"/>
+  <path d="M111 303h400" stroke="#4a564f" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="206" cy="313" r="35" fill="#1f2929"/>
+  <circle cx="206" cy="313" r="15" fill="#c2c9bf"/>
+  <circle cx="416" cy="313" r="35" fill="#1f2929"/>
+  <circle cx="416" cy="313" r="15" fill="#c2c9bf"/>
+  <path d="M502 266l52-26 38 18" stroke="#44514b" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

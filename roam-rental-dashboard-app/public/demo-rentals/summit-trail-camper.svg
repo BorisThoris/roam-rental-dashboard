@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Summit Trail Camper">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#c8e8f5"/>
+      <stop offset="1" stop-color="#f8ddaa"/>
+    </linearGradient>
+    <linearGradient id="camper" x1="0" x2="1">
+      <stop offset="0" stop-color="#f8fbf7"/>
+      <stop offset="1" stop-color="#dce7df"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#sky)"/>
+  <path d="M0 274c84-28 156-29 230-10 105 26 178 16 259-12 60-21 109-24 151-15v183H0z" fill="#8fb58f"/>
+  <path d="M0 315c118-24 215-22 312 2 100 24 202 20 328-8v111H0z" fill="#607f67"/>
+  <path d="M45 260h210l74 79H93z" fill="#8b775e" opacity=".28"/>
+  <path d="M156 160h273c38 0 69 31 69 69v58H104v-75c0-29 23-52 52-52z" fill="url(#camper)"/>
+  <path d="M104 235h394v52H104z" fill="#cfdad2"/>
+  <path d="M159 188h70v54h-70zM265 188h93v54h-93z" fill="#445c61"/>
+  <path d="M379 187h48c20 0 37 16 37 37v18h-85z" fill="#445c61"/>
+  <path d="M116 287h393" stroke="#566a62" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="196" cy="298" r="34" fill="#20292c"/>
+  <circle cx="196" cy="298" r="16" fill="#b5c4bd"/>
+  <circle cx="413" cy="298" r="34" fill="#20292c"/>
+  <circle cx="413" cy="298" r="16" fill="#b5c4bd"/>
+  <path d="M112 220l-48-29" stroke="#3f4d4a" stroke-width="10" stroke-linecap="round"/>
+</svg>

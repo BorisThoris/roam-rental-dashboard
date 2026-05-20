@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Family Road Suite">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#b9e0ee"/>
+      <stop offset="1" stop-color="#f4dcae"/>
+    </linearGradient>
+    <linearGradient id="rv" x1="0" x2="1">
+      <stop offset="0" stop-color="#f9faf4"/>
+      <stop offset="1" stop-color="#ccd7cf"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#sky)"/>
+  <path d="M0 260c88-18 167-11 236 20 83 37 164 38 244 5 58-24 111-30 160-17v152H0z" fill="#80a782"/>
+  <path d="M0 322c110-15 213-14 308 4 118 22 229 17 332-13v107H0z" fill="#557f68"/>
+  <path d="M78 255h427l87 76H156z" fill="#3e5148" opacity=".22"/>
+  <path d="M121 168h352c31 0 56 25 56 56v75H97v-107c0-13 11-24 24-24z" fill="url(#rv)"/>
+  <path d="M144 193h81v58h-81zM256 193h91v58h-91zM379 193h86c18 0 33 15 33 33v25H379z" fill="#405b61"/>
+  <path d="M98 299h442" stroke="#53635c" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="206" cy="309" r="37" fill="#1e292b"/>
+  <circle cx="206" cy="309" r="16" fill="#bdc9c0"/>
+  <circle cx="431" cy="309" r="37" fill="#1e292b"/>
+  <circle cx="431" cy="309" r="16" fill="#bdc9c0"/>
+  <path d="M118 274h391" stroke="#a8b5ad" stroke-width="14" stroke-linecap="round" opacity=".6"/>
+</svg>

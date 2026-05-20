@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Lakeside Tow Rig">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#b9dff2"/>
+      <stop offset=".72" stop-color="#f6dfb8"/>
+      <stop offset="1" stop-color="#8bb5b0"/>
+    </linearGradient>
+    <linearGradient id="truck" x1="0" x2="1">
+      <stop offset="0" stop-color="#f1f4ef"/>
+      <stop offset="1" stop-color="#b8c6bd"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#sky)"/>
+  <path d="M0 279c75-14 145-12 213 8 91 27 171 23 254-5 65-22 123-28 173-15v153H0z" fill="#5c8977"/>
+  <path d="M0 319c91 14 195 14 311-1 133-17 242-14 329 9v93H0z" fill="#416e73"/>
+  <path d="M71 259h343l115 72H165z" fill="#3d4d4a" opacity=".22"/>
+  <path d="M118 196h141l47 46h97c25 0 48 16 56 40l9 27H86l15-79c4-20 21-34 42-34z" fill="url(#truck)"/>
+  <path d="M159 210h82l31 32H151zM294 214h73c20 0 39 12 47 31h-120z" fill="#415d63"/>
+  <path d="M82 309h391" stroke="#263536" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="174" cy="316" r="37" fill="#1d282b"/>
+  <circle cx="174" cy="316" r="16" fill="#b9c8c0"/>
+  <circle cx="383" cy="316" r="37" fill="#1d282b"/>
+  <circle cx="383" cy="316" r="16" fill="#b9c8c0"/>
+  <path d="M465 284h70l24 25h-84z" fill="#d8e0d8"/>
+  <circle cx="541" cy="317" r="22" fill="#1d282b"/>
+  <circle cx="541" cy="317" r="9" fill="#b9c8c0"/>
+</svg>

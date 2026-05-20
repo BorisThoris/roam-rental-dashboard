@@ -13,7 +13,7 @@ export const mockRentals: MockRental[] = [
     images: [
       {
         id: 1,
-        url: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80',
+        url: '/demo-rentals/summit-trail-camper.svg',
       },
     ],
   },
@@ -25,7 +25,7 @@ export const mockRentals: MockRental[] = [
     images: [
       {
         id: 2,
-        url: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=800&q=80',
+        url: '/demo-rentals/lakeside-tow-rig.svg',
       },
     ],
   },
@@ -37,7 +37,7 @@ export const mockRentals: MockRental[] = [
     images: [
       {
         id: 3,
-        url: 'https://images.unsplash.com/photo-1483721310020-03333e577078?auto=format&fit=crop&w=800&q=80',
+        url: '/demo-rentals/desert-gear-trailer.svg',
       },
     ],
   },
@@ -46,6 +46,11 @@ export const mockRentals: MockRental[] = [
     name: 'Family Road Suite',
     description: 'Roomy travel setup for family routes, remote work, and long weekends.',
     categories: ['other', 'family', 'travel'],
-    images: [],
+    images: [
+      {
+        id: 4,
+        url: '/demo-rentals/family-road-suite.svg',
+      },
+    ],
   },
 ]

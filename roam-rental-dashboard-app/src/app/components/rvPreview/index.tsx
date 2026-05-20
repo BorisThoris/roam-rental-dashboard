@@ -18,9 +18,12 @@ const RvImage = styled.div<ImageProps>`
   min-width: 40%;
   height: 10vh;
 
-  background-image: url(${(props) => props.background});
+  background-color: #d9ece8;
+  background-image: url(${(props) => props.background}),
+    linear-gradient(135deg, #d9ece8 0%, #f5d8a7 100%);
   background-size: cover;
-  background-repeat: round;
+  background-position: center;
+  background-repeat: no-repeat;
   border-radius: 5%;
   margin-right: 1%;
 `
@@ -37,7 +40,7 @@ interface RvImage {
 }
 
 export const RvPreview = ({ rental }: { rental: Rental }) => {
-  const imageUrl = _.get(rental, 'images[0].url', brokenUrl)
+  const imageUrl = _.get(rental, 'images[0].url', brokenUrl) || brokenUrl
 
   return (
     <RvCard>
