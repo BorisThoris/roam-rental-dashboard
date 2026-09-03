@@ -1,0 +1,174 @@
+{
+  "$schema": "./scripts/project.meta.schema.json",
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-03T20:39:08.211Z",
+  "generatedBy": "scripts/generate-project-meta.mjs",
+  "identity": {
+    "slug": "roam-rental-dashboard",
+    "repoName": "roam-rental-dashboard",
+    "packageName": "roam-rental-dashboard",
+    "version": "1.0.0",
+    "title": "Roam Rental Dashboard",
+    "subtitle": "Legacy rental search dashboard",
+    "description": "A preserved Next.js portfolio demo for typed rental search, listing previews, reusable hooks, styled components, and local mock data.",
+    "tags": [
+      "Next.js",
+      "TypeScript",
+      "Styled Components",
+      "Jest"
+    ],
+    "accent": "#22c55e",
+    "classification": "web-app",
+    "showcaseTier": "more"
+  },
+  "links": {
+    "deploymentUrl": "https://roam-rental-dashboard-git.pages.dev/dashboard",
+    "localUrl": "http://127.0.0.1:4106/dashboard",
+    "repository": "https://github.com/BorisThoris/roam-rental-dashboard"
+  },
+  "runtime": {
+    "packageManager": "npm",
+    "buildCommand": "npm run build",
+    "buildOutput": "roam-rental-dashboard-app/.next",
+    "buildCwd": "roam-rental-dashboard-app",
+    "runCommand": "cd roam-rental-dashboard-app && npm run dev -- -p 4106",
+    "devPort": 4106,
+    "fallbackCommand": "npm run start -- -p 4106",
+    "fallbackCwd": "roam-rental-dashboard-app",
+    "scripts": [
+      "test",
+      "meta",
+      "meta:check"
+    ]
+  },
+  "capture": {
+    "route": "/dashboard"
+  },
+  "media": {
+    "source": "portfolio-capture",
+    "directory": "C:/Users/Gaming PC/Desktop/Repos/portfolio/public/project-shots/roam-rental-dashboard/latest",
+    "primary": "/project-shots/roam-rental-dashboard/latest/card.jpg",
+    "images": [
+      {
+        "profile": "card",
+        "file": "card.jpg",
+        "path": "/project-shots/roam-rental-dashboard/latest/card.jpg",
+        "bytes": 30830,
+        "width": 1600,
+        "height": 900,
+        "capturedAt": "2026-08-27T12:13:30.189Z"
+      },
+      {
+        "profile": "desktop",
+        "file": "desktop.jpg",
+        "path": "/project-shots/roam-rental-dashboard/latest/desktop.jpg",
+        "bytes": 28399,
+        "width": 1440,
+        "height": 900,
+        "capturedAt": "2026-08-27T12:13:36.769Z"
+      },
+      {
+        "profile": "full",
+        "file": "full.jpg",
+        "path": "/project-shots/roam-rental-dashboard/latest/full.jpg",
+        "bytes": 25787,
+        "width": 1440,
+        "height": 900,
+        "capturedAt": "2026-08-27T12:13:49.991Z"
+      },
+      {
+        "profile": "main",
+        "file": "main.png",
+        "path": "/project-shots/roam-rental-dashboard/main.png",
+        "bytes": 10304,
+        "width": 1249,
+        "height": 1225,
+        "capturedAt": "2026-05-14T22:34:40.410Z"
+      },
+      {
+        "profile": "mobile",
+        "file": "mobile.jpg",
+        "path": "/project-shots/roam-rental-dashboard/latest/mobile.jpg",
+        "bytes": 13028,
+        "width": 430,
+        "height": 932,
+        "capturedAt": "2026-08-27T12:13:43.377Z"
+      }
+    ]
+  },
+  "stack": {
+    "framework": "Next.js",
+    "language": "TypeScript",
+    "runtimeTargets": [
+      "web"
+    ],
+    "libraries": [
+      {
+        "name": "react",
+        "version": "16.13.1"
+      },
+      {
+        "name": "react-dom",
+        "version": "16.13.1"
+      },
+      {
+        "name": "next",
+        "version": "9.5.3"
+      },
+      {
+        "name": "styled-components",
+        "version": "^5.1.0"
+      },
+      {
+        "name": "typescript",
+        "version": "4.9.4"
+      }
+    ],
+    "testing": [
+      "jest"
+    ],
+    "appDirectory": "roam-rental-dashboard-app",
+    "dependencyCount": 0,
+    "devDependencyCount": 0
+  },
+  "metrics": {
+    "sourceFiles": 18,
+    "testFiles": 3,
+    "sourceLines": 1073,
+    "largestDirectories": [
+      {
+        "directory": "roam-rental-dashboard-app",
+        "files": 16
+      },
+      {
+        "directory": "scripts",
+        "files": 2
+      }
+    ],
+    "hasReadme": true,
+    "hasTests": true,
+    "hasCi": false,
+    "hasDocs": false
+  },
+  "scores": {
+    "priorityScore": 74,
+    "demoabilityScore": 78,
+    "depthScore": 72,
+    "polishScore": 76,
+    "uniquenessScore": 70,
+    "maintenanceScore": 72
+  },
+  "analysisNotes": "Preserved Next.js dashboard demo with typed rental UI and mock data; strong supporting project but not as distinctive as the top showcase.",
+  "git": {
+    "branch": "main",
+    "head": "d659583",
+    "lastCommitDate": "2026-05-20T23:34:39+03:00",
+    "lastCommitSubject": "Preserve verified work before AI refine roam-rental-dashboard",
+    "commitCount": 32,
+    "remote": "https://github.com/BorisThoris/roam-rental-dashboard.git"
+  },
+  "readme": {
+    "file": "README.md",
+    "heading": "Roam Rental Dashboard"
+  }
+}
