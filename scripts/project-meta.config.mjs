@@ -58,6 +58,16 @@ export default {
   analysisNotes:
     "Preserved Next.js dashboard demo with typed rental UI and mock data; strong supporting project but not as distinctive as the top showcase.",
 
+  // This project renders its head from code, so the tags live in
+  // roam-rental-dashboard-app/src/components/SocialPreviewHead.tsx and the image
+  // is published from the Next public directory.
+  social: {
+    "renderedFrom": "roam-rental-dashboard-app/src/components/SocialPreviewHead.tsx",
+    "staticDir": "roam-rental-dashboard-app/public",
+    "imageName": "og-image.jpg",
+    "imageUrlPath": "/og-image.jpg"
+  },
+
   media: {
     sourceDir: path.join(portfolioRoot, "public", "project-shots", "roam-rental-dashboard", "latest"),
     publicPathPrefix: "/project-shots/roam-rental-dashboard/latest",

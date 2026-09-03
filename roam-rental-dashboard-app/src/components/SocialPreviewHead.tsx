@@ -1,0 +1,40 @@
+import Head from 'next/head'
+import React from 'react'
+
+// Open Graph / Twitter tags, so pasting the deployment link into a chat unfurls
+// into a card with the dashboard's own screenshot.
+//
+// This project renders its head from code, so the values live here rather than
+// in an index.html. Keep them in step with scripts/project-meta.config.mjs at
+// the repository root (npm run social prints what the tags should say).
+const SITE_URL = 'https://roam-rental-dashboard-git.pages.dev'
+const PAGE_URL = `${SITE_URL}/dashboard`
+const IMAGE_URL = `${SITE_URL}/og-image.jpg`
+const TITLE = 'Roam Rental Dashboard'
+const DESCRIPTION =
+  'A preserved Next.js portfolio demo for typed rental search, listing previews, reusable hooks, styled components, and local mock data.'
+
+export default function SocialPreviewHead() {
+  return (
+    <Head>
+      <title>{TITLE}</title>
+      <meta name="description" content={DESCRIPTION} />
+      <meta property="og:type" content="website" />
+      <meta property="og:site_name" content={TITLE} />
+      <meta property="og:title" content={TITLE} />
+      <meta property="og:description" content={DESCRIPTION} />
+      <meta property="og:url" content={PAGE_URL} />
+      <meta property="og:image" content={IMAGE_URL} />
+      <meta property="og:image:secure_url" content={IMAGE_URL} />
+      <meta property="og:image:type" content="image/jpeg" />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
+      <meta property="og:image:alt" content={`${TITLE} - ${DESCRIPTION}`} />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={TITLE} />
+      <meta name="twitter:description" content={DESCRIPTION} />
+      <meta name="twitter:image" content={IMAGE_URL} />
+      <meta name="twitter:image:alt" content={`${TITLE} - ${DESCRIPTION}`} />
+    </Head>
+  )
+}

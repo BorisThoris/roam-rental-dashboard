@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import { AppProps } from 'next/app'
 
+import SocialPreviewHead from '@/components/SocialPreviewHead'
+
 const PageWrapper = styled.div`
   display: flex;
   justify-content: center;
@@ -13,11 +15,14 @@ const FakeMobileView = styled.div`
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <PageWrapper>
-      <FakeMobileView>
-        <Component {...pageProps} />
-      </FakeMobileView>
-    </PageWrapper>
+    <>
+      <SocialPreviewHead />
+      <PageWrapper>
+        <FakeMobileView>
+          <Component {...pageProps} />
+        </FakeMobileView>
+      </PageWrapper>
+    </>
   )
 }
 

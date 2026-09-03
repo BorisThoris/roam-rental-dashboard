@@ -25,7 +25,7 @@ export const useFetchRentals = (type?:string): Data => {
                 const searchableText = [
                   item.name,
                   item.description,
-                  ...item.categories,
+                  ...(item.categories ?? []),
                 ].join(' ').toLowerCase()
 
                 return searchableText.includes(searchValue)
