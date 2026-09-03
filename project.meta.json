@@ -1,7 +1,7 @@
 {
   "$schema": "./scripts/project.meta.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-03T20:39:08.211Z",
+  "generatedAt": "2026-09-03T20:45:31.400Z",
   "generatedBy": "scripts/generate-project-meta.mjs",
   "identity": {
     "slug": "roam-rental-dashboard",
@@ -134,7 +134,7 @@
   "metrics": {
     "sourceFiles": 18,
     "testFiles": 3,
-    "sourceLines": 1073,
+    "sourceLines": 1076,
     "largestDirectories": [
       {
         "directory": "roam-rental-dashboard-app",
@@ -161,10 +161,10 @@
   "analysisNotes": "Preserved Next.js dashboard demo with typed rental UI and mock data; strong supporting project but not as distinctive as the top showcase.",
   "git": {
     "branch": "main",
-    "head": "d659583",
-    "lastCommitDate": "2026-05-20T23:34:39+03:00",
-    "lastCommitSubject": "Preserve verified work before AI refine roam-rental-dashboard",
-    "commitCount": 32,
+    "head": "59cac54",
+    "lastCommitDate": "2026-09-03T23:42:37+03:00",
+    "lastCommitSubject": "Wire up the meta scripts",
+    "commitCount": 34,
     "remote": "https://github.com/BorisThoris/roam-rental-dashboard.git"
   },
   "readme": {
