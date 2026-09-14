@@ -1,7 +1,7 @@
 {
   "$schema": "./scripts/project.meta.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T21:36:22.113Z",
+  "generatedAt": "2026-09-14T22:04:35.878Z",
   "generatedBy": "scripts/generate-project-meta.mjs",
   "identity": {
     "slug": "roam-rental-dashboard",
@@ -140,7 +140,7 @@
   "metrics": {
     "sourceFiles": 23,
     "testFiles": 3,
-    "sourceLines": 2073,
+    "sourceLines": 2082,
     "largestDirectories": [
       {
         "directory": "roam-rental-dashboard-app",
@@ -167,10 +167,10 @@
   "analysisNotes": "Preserved Next.js dashboard demo with typed rental UI and mock data; strong supporting project but not as distinctive as the top showcase.",
   "git": {
     "branch": "main",
-    "head": "d4afe5e",
-    "lastCommitDate": "2026-09-14T23:57:27+03:00",
-    "lastCommitSubject": "Sync the metadata toolkit scripts and regenerate project.meta.json",
-    "commitCount": 39,
+    "head": "8ec22c3",
+    "lastCommitDate": "2026-09-15T00:38:47+03:00",
+    "lastCommitSubject": "Gate pushes on a current link-preview card and icon set",
+    "commitCount": 40,
     "remote": "https://github.com/BorisThoris/roam-rental-dashboard.git"
   },
   "readme": {
