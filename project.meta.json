@@ -1,7 +1,7 @@
 {
   "$schema": "./scripts/project.meta.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T22:04:35.878Z",
+  "generatedAt": "2026-09-14T22:23:07.136Z",
   "generatedBy": "scripts/generate-project-meta.mjs",
   "identity": {
     "slug": "roam-rental-dashboard",
@@ -52,53 +52,53 @@
   },
   "media": {
     "source": "repo-local",
-    "directory": "C:/Users/Gaming PC/Desktop/Repos/roam-rental-dashboard/project-media",
+    "directory": "/home/runner/work/roam-rental-dashboard/roam-rental-dashboard/project-media",
     "primary": "project-media/card.jpg",
     "images": [
       {
         "profile": "card",
         "file": "card.jpg",
         "path": "project-media/card.jpg",
-        "bytes": 13251,
+        "bytes": 13090,
         "width": 1600,
         "height": 900,
-        "capturedAt": "2026-09-03T21:35:37.816Z"
+        "capturedAt": "2026-09-14T22:23:01.108Z"
       },
       {
         "profile": "desktop",
         "file": "desktop.jpg",
         "path": "project-media/desktop.jpg",
-        "bytes": 12395,
+        "bytes": 12227,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-03T21:35:39.278Z"
+        "capturedAt": "2026-09-14T22:23:02.588Z"
       },
       {
         "profile": "full",
         "file": "full.jpg",
         "path": "project-media/full.jpg",
-        "bytes": 11879,
+        "bytes": 11736,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-03T21:35:42.125Z"
+        "capturedAt": "2026-09-14T22:23:05.541Z"
       },
       {
         "profile": "mobile",
         "file": "mobile.jpg",
         "path": "project-media/mobile.jpg",
-        "bytes": 6653,
+        "bytes": 6463,
         "width": 430,
         "height": 932,
-        "capturedAt": "2026-09-03T21:35:40.690Z"
+        "capturedAt": "2026-09-14T22:23:04.103Z"
       },
       {
         "profile": "og",
         "file": "og.jpg",
         "path": "project-media/og.jpg",
-        "bytes": 8616,
+        "bytes": 8506,
         "width": 1200,
         "height": 630,
-        "capturedAt": "2026-09-03T21:35:43.524Z"
+        "capturedAt": "2026-09-14T22:23:06.981Z"
       }
     ]
   },
@@ -138,13 +138,13 @@
     "devDependencyCount": 0
   },
   "metrics": {
-    "sourceFiles": 23,
-    "testFiles": 3,
-    "sourceLines": 2082,
+    "sourceFiles": 21,
+    "testFiles": 2,
+    "sourceLines": 2027,
     "largestDirectories": [
       {
         "directory": "roam-rental-dashboard-app",
-        "files": 17
+        "files": 15
       },
       {
         "directory": "scripts",
@@ -167,11 +167,11 @@
   "analysisNotes": "Preserved Next.js dashboard demo with typed rental UI and mock data; strong supporting project but not as distinctive as the top showcase.",
   "git": {
     "branch": "main",
-    "head": "8ec22c3",
-    "lastCommitDate": "2026-09-15T00:38:47+03:00",
-    "lastCommitSubject": "Gate pushes on a current link-preview card and icon set",
-    "commitCount": 40,
-    "remote": "https://github.com/BorisThoris/roam-rental-dashboard.git"
+    "head": "e1fd69b",
+    "lastCommitDate": "2026-09-15T01:04:36+03:00",
+    "lastCommitSubject": "Refresh screenshots, card, icons and metadata after every deployment",
+    "commitCount": 41,
+    "remote": "https://github.com/BorisThoris/roam-rental-dashboard"
   },
   "readme": {
     "file": "README.md",
