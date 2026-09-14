@@ -1,0 +1,17 @@
+{
+  "slug": "roam-rental-dashboard",
+  "source": "roam-rental-dashboard-app/public/favicon.svg",
+  "sourceHash": "4409c2bf85226422",
+  "outputDir": "roam-rental-dashboard-app/public",
+  "urlPrefix": "/",
+  "renderedAt": "2026-09-14T20:39:56.553Z",
+  "files": [
+    "favicon.ico",
+    "apple-touch-icon.png",
+    "icon-192.png",
+    "icon-512.png",
+    "icon-maskable-512.png",
+    "favicon.svg",
+    "site.webmanifest"
+  ]
+}

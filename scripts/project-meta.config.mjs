@@ -68,6 +68,13 @@ export default {
     "imageUrlPath": "/og-image.jpg"
   },
 
+  // The icon set is rendered from favicon.svg by scripts/generate-app-icons.mjs.
+  icons: {
+    "background": "#052e16",
+    "themeColor": "#052e16",
+    "shortName": "Roam"
+  },
+
   media: {
     sourceDir: path.join(portfolioRoot, "public", "project-shots", "roam-rental-dashboard", "latest"),
     publicPathPrefix: "/project-shots/roam-rental-dashboard/latest",

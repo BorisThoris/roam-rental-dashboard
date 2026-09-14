@@ -19,6 +19,12 @@ export default function SocialPreviewHead() {
     <Head>
       <title>{TITLE}</title>
       <meta name="description" content={DESCRIPTION} />
+      {/* Icon set rendered by scripts/generate-app-icons.mjs into public/ */}
+      <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" sizes="16x16 32x32 48x48" />
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+      <link rel="manifest" href="/site.webmanifest" />
+      <meta name="theme-color" content="#052e16" />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content={TITLE} />
       <meta property="og:title" content={TITLE} />
