@@ -12,7 +12,7 @@ const PAGE_URL = `${SITE_URL}/dashboard`
 const IMAGE_URL = `${SITE_URL}/og-image.jpg`
 const TITLE = 'Roam Rental Dashboard'
 const DESCRIPTION =
-  'A preserved Next.js portfolio demo for typed rental search, listing previews, reusable hooks, styled components, and local mock data.'
+  'A Next.js rental dashboard: type a search, watch the listings filter in, and open a preview card for each place. Typed listing models, a reusable data-fetching hook, styled-components and Jest tests, all running on local mock data.'
 
 export default function SocialPreviewHead() {
   return (

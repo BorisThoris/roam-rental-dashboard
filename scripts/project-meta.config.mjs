@@ -20,8 +20,8 @@ export default {
 
   curated: {
     "title": "Roam Rental Dashboard",
-    "subtitle": "Legacy rental search dashboard",
-    "description": "A preserved Next.js portfolio demo for typed rental search, listing previews, reusable hooks, styled components, and local mock data.",
+    "subtitle": "Search and preview rentals from a typed Next.js dashboard",
+    "description": "A Next.js rental dashboard: type a search, watch the listings filter in, and open a preview card for each place. Typed listing models, a reusable data-fetching hook, styled-components and Jest tests, all running on local mock data.",
     "tags": [
       "Next.js",
       "TypeScript",
@@ -63,6 +63,7 @@ export default {
   // is published from the Next public directory.
   social: {
     "renderedFrom": "roam-rental-dashboard-app/src/components/SocialPreviewHead.tsx",
+    "pageTitle": "Roam Rental Dashboard",
     "staticDir": "roam-rental-dashboard-app/public",
     "imageName": "og-image.jpg",
     "imageUrlPath": "/og-image.jpg"

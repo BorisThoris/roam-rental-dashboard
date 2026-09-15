@@ -1,7 +1,7 @@
 {
   "name": "Roam Rental Dashboard",
   "short_name": "Roam",
-  "description": "A preserved Next.js portfolio demo for typed rental search, listing previews, reusable hooks, styled components, and local mock data.",
+  "description": "A Next.js rental dashboard: type a search, watch the listings filter in, and open a preview card for each place. Typed listing models, a reusable data-fetching hook, styled-components and Jest tests, all running on local mock data.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

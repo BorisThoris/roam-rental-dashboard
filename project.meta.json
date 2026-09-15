@@ -1,7 +1,7 @@
 {
   "$schema": "./scripts/project.meta.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T22:23:07.136Z",
+  "generatedAt": "2026-09-15T12:15:31.424Z",
   "generatedBy": "scripts/generate-project-meta.mjs",
   "identity": {
     "slug": "roam-rental-dashboard",
@@ -9,8 +9,8 @@
     "packageName": "roam-rental-dashboard",
     "version": "1.0.0",
     "title": "Roam Rental Dashboard",
-    "subtitle": "Legacy rental search dashboard",
-    "description": "A preserved Next.js portfolio demo for typed rental search, listing previews, reusable hooks, styled components, and local mock data.",
+    "subtitle": "Search and preview rentals from a typed Next.js dashboard",
+    "description": "A Next.js rental dashboard: type a search, watch the listings filter in, and open a preview card for each place. Typed listing models, a reusable data-fetching hook, styled-components and Jest tests, all running on local mock data.",
     "tags": [
       "Next.js",
       "TypeScript",
@@ -52,7 +52,7 @@
   },
   "media": {
     "source": "repo-local",
-    "directory": "/home/runner/work/roam-rental-dashboard/roam-rental-dashboard/project-media",
+    "directory": "C:/Users/Gaming PC/Desktop/Repos/roam-rental-dashboard/project-media",
     "primary": "project-media/card.jpg",
     "images": [
       {
@@ -62,7 +62,7 @@
         "bytes": 13090,
         "width": 1600,
         "height": 900,
-        "capturedAt": "2026-09-14T22:23:01.108Z"
+        "capturedAt": "2026-09-14T22:49:21.812Z"
       },
       {
         "profile": "desktop",
@@ -71,7 +71,7 @@
         "bytes": 12227,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-14T22:23:02.588Z"
+        "capturedAt": "2026-09-14T22:49:21.813Z"
       },
       {
         "profile": "full",
@@ -80,7 +80,7 @@
         "bytes": 11736,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-14T22:23:05.541Z"
+        "capturedAt": "2026-09-14T22:49:21.814Z"
       },
       {
         "profile": "mobile",
@@ -89,7 +89,7 @@
         "bytes": 6463,
         "width": 430,
         "height": 932,
-        "capturedAt": "2026-09-14T22:23:04.103Z"
+        "capturedAt": "2026-09-14T22:49:21.820Z"
       },
       {
         "profile": "og",
@@ -98,7 +98,7 @@
         "bytes": 8506,
         "width": 1200,
         "height": 630,
-        "capturedAt": "2026-09-14T22:23:06.981Z"
+        "capturedAt": "2026-09-14T22:49:21.821Z"
       }
     ]
   },
@@ -138,13 +138,13 @@
     "devDependencyCount": 0
   },
   "metrics": {
-    "sourceFiles": 21,
-    "testFiles": 2,
-    "sourceLines": 2027,
+    "sourceFiles": 23,
+    "testFiles": 3,
+    "sourceLines": 2124,
     "largestDirectories": [
       {
         "directory": "roam-rental-dashboard-app",
-        "files": 15
+        "files": 17
       },
       {
         "directory": "scripts",
@@ -167,11 +167,11 @@
   "analysisNotes": "Preserved Next.js dashboard demo with typed rental UI and mock data; strong supporting project but not as distinctive as the top showcase.",
   "git": {
     "branch": "main",
-    "head": "e1fd69b",
-    "lastCommitDate": "2026-09-15T01:04:36+03:00",
-    "lastCommitSubject": "Refresh screenshots, card, icons and metadata after every deployment",
-    "commitCount": 41,
-    "remote": "https://github.com/BorisThoris/roam-rental-dashboard"
+    "head": "cc893ea",
+    "lastCommitDate": "2026-09-15T01:49:22+03:00",
+    "lastCommitSubject": "Let the refresh wait up to 90 minutes for a queued Cloudflare build [meta-bot]",
+    "commitCount": 43,
+    "remote": "https://github.com/BorisThoris/roam-rental-dashboard.git"
   },
   "readme": {
     "file": "README.md",
