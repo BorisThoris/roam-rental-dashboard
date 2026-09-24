@@ -1,7 +1,7 @@
 {
   "$schema": "./scripts/project.meta.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T12:52:40.395Z",
+  "generatedAt": "2026-09-24T14:40:11.147Z",
   "generatedBy": "scripts/generate-project-meta.mjs",
   "identity": {
     "slug": "roam-rental-dashboard",
@@ -64,7 +64,7 @@
         "bytes": 13090,
         "width": 1600,
         "height": 900,
-        "capturedAt": "2026-09-24T12:52:34.053Z"
+        "capturedAt": "2026-09-24T14:40:05.096Z"
       },
       {
         "profile": "desktop",
@@ -73,7 +73,7 @@
         "bytes": 12227,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-24T12:52:35.554Z"
+        "capturedAt": "2026-09-24T14:40:06.546Z"
       },
       {
         "profile": "full",
@@ -82,7 +82,7 @@
         "bytes": 11736,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-24T12:52:38.750Z"
+        "capturedAt": "2026-09-24T14:40:09.519Z"
       },
       {
         "profile": "mobile",
@@ -91,7 +91,7 @@
         "bytes": 6463,
         "width": 430,
         "height": 932,
-        "capturedAt": "2026-09-24T12:52:37.169Z"
+        "capturedAt": "2026-09-24T14:40:08.013Z"
       },
       {
         "profile": "og",
@@ -100,7 +100,7 @@
         "bytes": 8506,
         "width": 1200,
         "height": 630,
-        "capturedAt": "2026-09-24T12:52:40.230Z"
+        "capturedAt": "2026-09-24T14:40:11.023Z"
       }
     ]
   },
@@ -142,7 +142,7 @@
   "metrics": {
     "sourceFiles": 22,
     "testFiles": 2,
-    "sourceLines": 2628,
+    "sourceLines": 2654,
     "largestDirectories": [
       {
         "directory": "roam-rental-dashboard-app",
@@ -169,10 +169,10 @@
   "analysisNotes": "Preserved Next.js dashboard demo with typed rental UI and mock data; strong supporting project but not as distinctive as the top showcase.",
   "git": {
     "branch": "main",
-    "head": "46eb528",
-    "lastCommitDate": "2026-09-24T15:41:49+03:00",
+    "head": "b54b9e1",
+    "lastCommitDate": "2026-09-24T16:43:46+03:00",
     "lastCommitSubject": "Update the metadata toolkit scripts: trailers step, refresh --commit, capture.skip",
-    "commitCount": 49,
+    "commitCount": 52,
     "remote": "https://github.com/BorisThoris/roam-rental-dashboard"
   },
   "readme": {
