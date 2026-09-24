@@ -1,7 +1,7 @@
 {
   "$schema": "./scripts/project.meta.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-17T10:40:35.965Z",
+  "generatedAt": "2026-09-24T12:52:40.395Z",
   "generatedBy": "scripts/generate-project-meta.mjs",
   "identity": {
     "slug": "roam-rental-dashboard",
@@ -44,7 +44,9 @@
       "social:check",
       "icons",
       "icons:check",
-      "meta:refresh"
+      "meta:refresh",
+      "trailers",
+      "trailers:check"
     ]
   },
   "capture": {
@@ -62,7 +64,7 @@
         "bytes": 13090,
         "width": 1600,
         "height": 900,
-        "capturedAt": "2026-09-17T10:40:30.170Z"
+        "capturedAt": "2026-09-24T12:52:34.053Z"
       },
       {
         "profile": "desktop",
@@ -71,7 +73,7 @@
         "bytes": 12227,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-17T10:40:31.611Z"
+        "capturedAt": "2026-09-24T12:52:35.554Z"
       },
       {
         "profile": "full",
@@ -80,7 +82,7 @@
         "bytes": 11736,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-17T10:40:34.412Z"
+        "capturedAt": "2026-09-24T12:52:38.750Z"
       },
       {
         "profile": "mobile",
@@ -89,7 +91,7 @@
         "bytes": 6463,
         "width": 430,
         "height": 932,
-        "capturedAt": "2026-09-17T10:40:32.993Z"
+        "capturedAt": "2026-09-24T12:52:37.169Z"
       },
       {
         "profile": "og",
@@ -98,7 +100,7 @@
         "bytes": 8506,
         "width": 1200,
         "height": 630,
-        "capturedAt": "2026-09-17T10:40:35.805Z"
+        "capturedAt": "2026-09-24T12:52:40.230Z"
       }
     ]
   },
@@ -138,9 +140,9 @@
     "devDependencyCount": 0
   },
   "metrics": {
-    "sourceFiles": 21,
+    "sourceFiles": 22,
     "testFiles": 2,
-    "sourceLines": 2073,
+    "sourceLines": 2628,
     "largestDirectories": [
       {
         "directory": "roam-rental-dashboard-app",
@@ -148,7 +150,7 @@
       },
       {
         "directory": "scripts",
-        "files": 6
+        "files": 7
       }
     ],
     "hasReadme": true,
@@ -167,10 +169,10 @@
   "analysisNotes": "Preserved Next.js dashboard demo with typed rental UI and mock data; strong supporting project but not as distinctive as the top showcase.",
   "git": {
     "branch": "main",
-    "head": "fba3f66",
-    "lastCommitDate": "2026-09-17T13:27:57+03:00",
-    "lastCommitSubject": "Read basePath and distDir from HOSTED_* env for the sub-path static export",
-    "commitCount": 47,
+    "head": "46eb528",
+    "lastCommitDate": "2026-09-24T15:41:49+03:00",
+    "lastCommitSubject": "Update the metadata toolkit scripts: trailers step, refresh --commit, capture.skip",
+    "commitCount": 49,
     "remote": "https://github.com/BorisThoris/roam-rental-dashboard"
   },
   "readme": {
