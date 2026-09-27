@@ -125,3 +125,5 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+# recorded trailer masters (scripts/build-project-trailers.mjs)
+project-media/.captures/

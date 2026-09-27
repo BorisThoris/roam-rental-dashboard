@@ -1,7 +1,7 @@
 {
   "$schema": "./scripts/project.meta.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T16:26:00.729Z",
+  "generatedAt": "2026-09-27T14:30:00.925Z",
   "generatedBy": "scripts/generate-project-meta.mjs",
   "identity": {
     "slug": "roam-rental-dashboard",
@@ -46,61 +46,105 @@
       "icons:check",
       "meta:refresh",
       "trailers",
-      "trailers:check"
+      "trailers:check",
+      "test:media",
+      "test:media:e2e"
     ]
   },
   "capture": {
-    "route": "/dashboard"
+    "route": "/",
+    "actions": [
+      {
+        "type": "waitFor",
+        "target": {
+          "selector": "input"
+        },
+        "state": "visible",
+        "label": "wait for the search box",
+        "timeoutMs": 60000
+      },
+      {
+        "type": "type",
+        "target": {
+          "selector": "input"
+        },
+        "value": "trail",
+        "label": "search for a trail rig"
+      },
+      {
+        "type": "wait",
+        "ms": 800
+      }
+    ],
+    "waitAfterReadyMs": 600,
+    "quality": {
+      "maxLight": 0.99
+    }
   },
   "media": {
     "source": "repo-local",
-    "directory": "/home/runner/work/roam-rental-dashboard/roam-rental-dashboard/project-media",
+    "directory": "C:/Users/GAMING~1/AppData/Local/Temp/media-rollout-mtitLT/project-media",
     "primary": "project-media/card.jpg",
     "images": [
       {
         "profile": "card",
         "file": "card.jpg",
         "path": "project-media/card.jpg",
-        "bytes": 13090,
+        "bytes": 21144,
         "width": 1600,
         "height": 900,
-        "capturedAt": "2026-09-24T16:25:54.882Z"
+        "capturedAt": "2026-09-27T14:29:51.529Z"
       },
       {
         "profile": "desktop",
         "file": "desktop.jpg",
         "path": "project-media/desktop.jpg",
-        "bytes": 12227,
+        "bytes": 25752,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-24T16:25:56.353Z"
+        "capturedAt": "2026-09-27T14:29:53.626Z"
       },
       {
         "profile": "full",
         "file": "full.jpg",
         "path": "project-media/full.jpg",
-        "bytes": 11736,
+        "bytes": 17997,
         "width": 1440,
         "height": 900,
-        "capturedAt": "2026-09-24T16:25:59.170Z"
+        "capturedAt": "2026-09-27T14:29:58.165Z"
       },
       {
         "profile": "mobile",
         "file": "mobile.jpg",
         "path": "project-media/mobile.jpg",
-        "bytes": 6463,
+        "bytes": 9063,
         "width": 430,
         "height": 932,
-        "capturedAt": "2026-09-24T16:25:57.741Z"
+        "capturedAt": "2026-09-27T14:29:55.764Z"
       },
       {
         "profile": "og",
         "file": "og.jpg",
         "path": "project-media/og.jpg",
-        "bytes": 8506,
+        "bytes": 15002,
         "width": 1200,
         "height": 630,
-        "capturedAt": "2026-09-24T16:26:00.579Z"
+        "capturedAt": "2026-09-27T14:30:00.222Z"
+      }
+    ],
+    "trailers": [
+      {
+        "id": "tour",
+        "title": "Roam Rental Dashboard: search the listings",
+        "url": "https://roam-rental-dashboard-git.pages.dev/trailers/tour.mp4",
+        "poster": "https://roam-rental-dashboard-git.pages.dev/trailers/tour.jpg",
+        "file": "roam-rental-dashboard-app/public/trailers/tour.mp4",
+        "bytes": 431166,
+        "width": 1280,
+        "height": 720,
+        "duration": 20,
+        "orientation": "landscape",
+        "builtAt": "2026-09-27T14:29:23.264Z"
       }
     ]
   },
@@ -140,9 +184,9 @@
     "devDependencyCount": 0
   },
   "metrics": {
-    "sourceFiles": 22,
-    "testFiles": 2,
-    "sourceLines": 2677,
+    "sourceFiles": 25,
+    "testFiles": 4,
+    "sourceLines": 3566,
     "largestDirectories": [
       {
         "directory": "roam-rental-dashboard-app",
@@ -150,7 +194,7 @@
       },
       {
         "directory": "scripts",
-        "files": 7
+        "files": 10
       }
     ],
     "hasReadme": true,
@@ -168,12 +212,12 @@
   },
   "analysisNotes": "Preserved Next.js dashboard demo with typed rental UI and mock data; strong supporting project but not as distinctive as the top showcase.",
   "git": {
-    "branch": "main",
-    "head": "4f6f11d",
-    "lastCommitDate": "2026-09-24T19:13:23+03:00",
-    "lastCommitSubject": "Update the metadata toolkit scripts: trailers step, refresh --commit, capture.skip",
-    "commitCount": 54,
-    "remote": "https://github.com/BorisThoris/roam-rental-dashboard"
+    "branch": "HEAD",
+    "head": "a3da899",
+    "lastCommitDate": "2026-09-24T16:26:00+00:00",
+    "lastCommitSubject": "Refresh screenshots, card, icons and metadata [meta-bot]",
+    "commitCount": 55,
+    "remote": "https://github.com/BorisThoris/roam-rental-dashboard.git"
   },
   "readme": {
     "file": "README.md",
