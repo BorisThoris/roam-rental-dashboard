@@ -1,6 +1,6 @@
 {
   "slug": "roam-rental-dashboard",
-  "capturedAt": "2026-09-27T14:30:00.354Z",
+  "capturedAt": "2026-11-11T21:15:53.594Z",
   "source": "deployment",
   "url": "https://roam-rental-dashboard-git.pages.dev/dashboard",
   "recipe": {
@@ -54,37 +54,7 @@
       "file": "desktop.jpg",
       "width": 1440,
       "height": 900,
-      "bytes": 25752,
-      "status": "captured",
-      "stats": {
-        "mean": 244,
-        "std": 27,
-        "dark": 0,
-        "light": 0.765,
-        "colours": 25
-      }
-    },
-    {
-      "profile": "mobile",
-      "file": "mobile.jpg",
-      "width": 430,
-      "height": 932,
-      "bytes": 9063,
-      "status": "captured",
-      "stats": {
-        "mean": 251,
-        "std": 20,
-        "dark": 0,
-        "light": 0.938,
-        "colours": 37
-      }
-    },
-    {
-      "profile": "full",
-      "file": "full.jpg",
-      "width": 1440,
-      "height": 900,
-      "bytes": 17997,
+      "bytes": 19362,
       "status": "captured",
       "stats": {
         "mean": 251,
@@ -95,18 +65,48 @@
       }
     },
     {
+      "profile": "mobile",
+      "file": "mobile.jpg",
+      "width": 430,
+      "height": 932,
+      "bytes": 8835,
+      "status": "captured",
+      "stats": {
+        "mean": 250,
+        "std": 22,
+        "dark": 0,
+        "light": 0.937,
+        "colours": 35
+      }
+    },
+    {
+      "profile": "full",
+      "file": "full.jpg",
+      "width": 1440,
+      "height": 900,
+      "bytes": 23652,
+      "status": "captured",
+      "stats": {
+        "mean": 249,
+        "std": 20,
+        "dark": 0,
+        "light": 0.859,
+        "colours": 22
+      }
+    },
+    {
       "profile": "og",
       "file": "og.jpg",
       "width": 1200,
       "height": 630,
-      "bytes": 15002,
+      "bytes": 20492,
       "status": "captured",
       "stats": {
-        "mean": 251,
-        "std": 16,
+        "mean": 246,
+        "std": 23,
         "dark": 0,
-        "light": 0.913,
-        "colours": 18
+        "light": 0.801,
+        "colours": 19
       }
     }
   ]
