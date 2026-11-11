@@ -1,6 +1,6 @@
 {
   "slug": "roam-rental-dashboard",
-  "capturedAt": "2026-11-11T21:15:53.594Z",
+  "capturedAt": "2026-11-11T23:48:06.750Z",
   "source": "deployment",
   "url": "https://roam-rental-dashboard-git.pages.dev/dashboard",
   "recipe": {
@@ -39,14 +39,14 @@
       "file": "card.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 21144,
+      "bytes": 20928,
       "status": "captured",
       "stats": {
-        "mean": 251,
-        "std": 16,
+        "mean": 253,
+        "std": 12,
         "dark": 0,
-        "light": 0.929,
-        "colours": 21
+        "light": 0.96,
+        "colours": 17
       }
     },
     {
@@ -54,14 +54,14 @@
       "file": "desktop.jpg",
       "width": 1440,
       "height": 900,
-      "bytes": 19362,
+      "bytes": 19209,
       "status": "captured",
       "stats": {
-        "mean": 251,
-        "std": 17,
+        "mean": 253,
+        "std": 13,
         "dark": 0,
-        "light": 0.923,
-        "colours": 28
+        "light": 0.954,
+        "colours": 19
       }
     },
     {
@@ -69,14 +69,14 @@
       "file": "mobile.jpg",
       "width": 430,
       "height": 932,
-      "bytes": 8835,
+      "bytes": 8637,
       "status": "captured",
       "stats": {
-        "mean": 250,
-        "std": 22,
+        "mean": 252,
+        "std": 16,
         "dark": 0,
-        "light": 0.937,
-        "colours": 35
+        "light": 0.965,
+        "colours": 30
       }
     },
     {
@@ -84,14 +84,14 @@
       "file": "full.jpg",
       "width": 1440,
       "height": 900,
-      "bytes": 23652,
+      "bytes": 17869,
       "status": "captured",
       "stats": {
-        "mean": 249,
-        "std": 20,
+        "mean": 253,
+        "std": 13,
         "dark": 0,
-        "light": 0.859,
-        "colours": 22
+        "light": 0.954,
+        "colours": 19
       }
     },
     {
@@ -99,13 +99,13 @@
       "file": "og.jpg",
       "width": 1200,
       "height": 630,
-      "bytes": 20492,
+      "bytes": 14855,
       "status": "captured",
       "stats": {
-        "mean": 246,
-        "std": 23,
+        "mean": 253,
+        "std": 12,
         "dark": 0,
-        "light": 0.801,
+        "light": 0.948,
         "colours": 19
       }
     }
